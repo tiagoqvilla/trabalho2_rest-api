@@ -1,0 +1,218 @@
+[
+  {
+    "no": 1,
+    "state": "Alagoas",
+    "cases_under_investigation": 158,
+    "cases_confirmed": 0,
+    "cases_discarded": 0,
+    "cases_reported_total": 158
+  },
+  {
+    "no": 2,
+    "state": "Bahia",
+    "cases_under_investigation": 471,
+    "cases_confirmed": 35,
+    "cases_discarded": 27,
+    "cases_reported_total": 533
+  },
+  {
+    "no": 3,
+    "state": "Ceará",
+    "cases_under_investigation": 218,
+    "cases_confirmed": 4,
+    "cases_discarded": 7,
+    "cases_reported_total": 229
+  },
+  {
+    "no": 4,
+    "state": "Maranhão",
+    "cases_under_investigation": 119,
+    "cases_confirmed": 0,
+    "cases_discarded": 15,
+    "cases_reported_total": 134
+  },
+  {
+    "no": 5,
+    "state": "Paraíba",
+    "cases_under_investigation": 497,
+    "cases_confirmed": 31,
+    "cases_discarded": 181,
+    "cases_reported_total": 709
+  },
+  {
+    "no": 6,
+    "state": "Pernambuco",
+    "cases_under_investigation": 1125,
+    "cases_confirmed": 138,
+    "cases_discarded": 110,
+    "cases_reported_total": 1373
+  },
+  {
+    "no": 7,
+    "state": "Piauí",
+    "cases_under_investigation": 91,
+    "cases_confirmed": 0,
+    "cases_discarded": 0,
+    "cases_reported_total": 91
+  },
+  {
+    "no": 8,
+    "state": "Rio Grande do Norte",
+    "cases_under_investigation": 133,
+    "cases_confirmed": 60,
+    "cases_discarded": 15,
+    "cases_reported_total": 208
+  },
+  {
+    "no": 9,
+    "state": "Sergipe",
+    "cases_under_investigation": 172,
+    "cases_confirmed": 0,
+    "cases_discarded": 0,
+    "cases_reported_total": 172
+  },
+  {
+    "no": 10,
+    "state": "Espírito Santo",
+    "cases_under_investigation": 52,
+    "cases_confirmed": 0,
+    "cases_discarded": 0,
+    "cases_reported_total": 52
+  },
+  {
+    "no": 11,
+    "state": "Minas Gerais",
+    "cases_under_investigation": 8,
+    "cases_confirmed": 1,
+    "cases_discarded": 39,
+    "cases_reported_total": 48
+  },
+  {
+    "no": 12,
+    "state": "Rio de Janeiro",
+    "cases_under_investigation": 122,
+    "cases_confirmed": 0,
+    "cases_discarded": 0,
+    "cases_reported_total": 122
+  },
+  {
+    "no": 13,
+    "state": "São Paulo",
+    "cases_under_investigation": 18,
+    "cases_confirmed": 0,
+    "cases_discarded": 0,
+    "cases_reported_total": 18
+  },
+  {
+    "no": 14,
+    "state": "Acre",
+    "cases_under_investigation": "Sem registros",
+    "cases_confirmed": "Sem registros",
+    "cases_discarded": "Sem registros",
+    "cases_reported_total": "Sem registros"
+  },
+  {
+    "no": 15,
+    "state": "Amapá",
+    "cases_under_investigation": "Sem registros",
+    "cases_confirmed": "Sem registros",
+    "cases_discarded": "Sem registros",
+    "cases_reported_total": "Sem registros"
+  },
+  {
+    "no": 16,
+    "state": "Amazonas",
+    "cases_under_investigation": "Sem registros",
+    "cases_confirmed": "Sem registros",
+    "cases_discarded": "Sem registros",
+    "cases_reported_total": "Sem registros"
+  },
+  {
+    "no": 17,
+    "state": "Pará",
+    "cases_under_investigation": 6,
+    "cases_confirmed": 0,
+    "cases_discarded": 0,
+    "cases_reported_total": 6
+  },
+  {
+    "no": 18,
+    "state": "Rondônia",
+    "cases_under_investigation": 1,
+    "cases_confirmed": 0,
+    "cases_discarded": 0,
+    "cases_reported_total": 1
+  },
+  {
+    "no": 19,
+    "state": "Roraima",
+    "cases_under_investigation": 5,
+    "cases_confirmed": 0,
+    "cases_discarded": 0,
+    "cases_reported_total": 5
+  },
+  {
+    "no": 20,
+    "state": "Tocantins",
+    "cases_under_investigation": 70,
+    "cases_confirmed": 0,
+    "cases_discarded": 12,
+    "cases_reported_total": 82
+  },
+  {
+    "no": 21,
+    "state": "Distrito Federal",
+    "cases_under_investigation": 5,
+    "cases_confirmed": 0,
+    "cases_discarded": 9,
+    "cases_reported_total": 14
+  },
+  {
+    "no": 22,
+    "state": "Goiás",
+    "cases_under_investigation": 62,
+    "cases_confirmed": 0,
+    "cases_discarded": 0,
+    "cases_reported_total": 62
+  },
+  {
+    "no": 23,
+    "state": "Mato Grosso",
+    "cases_under_investigation": 110,
+    "cases_confirmed": 0,
+    "cases_discarded": 37,
+    "cases_reported_total": 147
+  },
+  {
+    "no": 24,
+    "state": "Mato Grosso do Sul",
+    "cases_under_investigation": 3,
+    "cases_confirmed": 0,
+    "cases_discarded": 1,
+    "cases_reported_total": 4
+  },
+  {
+    "no": 25,
+    "state": "Paraná",
+    "cases_under_investigation": 2,
+    "cases_confirmed": 0,
+    "cases_discarded": 8,
+    "cases_reported_total": 10
+  },
+  {
+    "no": 26,
+    "state": "Santa Catarina",
+    "cases_under_investigation": 0,
+    "cases_confirmed": 0,
+    "cases_discarded": 1,
+    "cases_reported_total": 1
+  },
+  {
+    "no": 27,
+    "state": "Rio Grande do Sul",
+    "cases_under_investigation": 0,
+    "cases_confirmed": 1,
+    "cases_discarded": 0,
+    "cases_reported_total": 1
+  }
+]
