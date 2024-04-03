@@ -43,3 +43,28 @@ async def create_state(state_data: Registro):
     with open("dataset.json", "w") as file:
         json.dump(data, file, indent=4, default=str)
     return new_state_data
+
+@app.put("/states/{id}", response_model=Registro)
+async def update(id: int, request: Registro):
+    for state_data in data:
+        if state_data["no"] == id:
+            state_data["state"] = request.state
+            state_data["cases_under_investigation"] = request.cases_under_investigation
+            state_data["cases_confirmed"] = request.cases_confirmed
+            state_data["cases_discarded"] = request.cases_discarded
+            state_data["cases_reported_total"] = request.cases_reported_total
+            with open("dataset.json", "w") as file:
+                json.dump(data, file, indent=4, default=str)
+            return state_data
+    raise HTTPException(status_code=404, detail="State not found")
+
+
+@app.delete("/states/{id}")
+async def delete(id: int):
+    for state_data in data:
+        if state_data["no"] == id:
+            data.remove(state_data)
+            with open("dataset.json", "w") as file:
+                json.dump(data, file, indent=4, default=str)
+            return "Deleted"
+    raise HTTPException(status_code=404, detail="State not found")
