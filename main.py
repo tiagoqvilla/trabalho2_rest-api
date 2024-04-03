@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 import json
-from typing import List, Dict, Optional, Union
+from typing import Optional, Union
 from pydantic import BaseModel
 
 class Registro(BaseModel):
@@ -68,3 +68,7 @@ async def delete(id: int):
                 json.dump(data, file, indent=4, default=str)
             return "Deleted"
     raise HTTPException(status_code=404, detail="State not found")
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
